@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="plugin-dev.css">
+  </head>
+  <body>
+
+    <h1>hello</h1>
+
+    <video
+      id="test-player"
+      data-video-id="5408979105001"
+      data-account="5406515315001"
+      data-player="HyGz5MbSkb"
+      data-embed="default"
+      data-application-id
+      class="video-js"
+      controls
+      width="300"
+      height="169">
+    </video>
+
+    <script src="//players.brightcove.net/5406515315001/HyGz5MbSkb_default/index.min.js"></script>
+
+    <script type="text/javascript" src="plugin-dev.js"></script>
+    <script>
+      var options = {"overlayText": "This data supplied at initialization"};
+      videojs('test-player').pluginDev(options);
+    </script>
+
+  </body>
+</html>
