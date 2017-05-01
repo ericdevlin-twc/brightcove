@@ -1,2 +1,2 @@
-# brightcove-player
-JS files for birghtcove player
+# brightcove
+Plugin for brightcove player
