@@ -6,4 +6,5 @@ videojs.plugin('pluginDev', function(options) {
   overlay.className = 'vjs-overlay';
   overlay.innerHTML = options.overlayText;
   player.el().appendChild(overlay);
+  // myPlayer.muted(true);
 });
