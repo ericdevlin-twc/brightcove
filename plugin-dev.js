@@ -1,4 +1,3 @@
-console.log('hello');
 
 videojs.plugin('pluginDev', function(options) {
   var player = this,
